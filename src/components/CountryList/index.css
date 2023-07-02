@@ -1,0 +1,18 @@
+.icon-contain {
+  position: relative;
+}
+.language-container
+{
+  display: inline-block;
+  margin-left: 12rem;
+}
+.icon-list {
+  cursor: pointer;
+  position: absolute;
+  z-index: 1;
+  visibility: hidden;
+  transition: all 0.1s ease-out;
+}
+.language-container:hover .icon-list {
+  visibility: visible;
+}
