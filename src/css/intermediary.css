@@ -238,7 +238,7 @@ header .seacrh-bar-container label:hover {
   color: var(--green);
 }
 
-.home_video {
+/* .home_video {
   min-height: 100vh;
   display: flex;
   align-items: center;
@@ -288,7 +288,7 @@ header .seacrh-bar-container label:hover {
 }
 .home_video .controls .vid-btn.active {
   background: var(--orange);
-}
+} */
 
 .touristAttractions .box-container {
   display: flex;

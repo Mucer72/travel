@@ -616,16 +616,24 @@ header .seacrh-bar-container label:hover {
   .box-container .box .content p
   {
     height: 15rem;
-    
     overflow: hidden;
     text-overflow: ellipsis;
   }
-}
-@media (max-height: 550px)
-{
-  .home_video .content .p
+  .foodAndDrink .content .btn
   {
-    font-size: 1.5rem;
+    position: relative;
+    top: -75px;
+  }
+  .home_video .content .p 
+  {
+    font-size: 1.5rem !important;
+  }
+}
+@media screen and (max-height: 550px)
+{
+  .home_video .content .p 
+  {
+    font-size: 1.5rem !important;
   }
 }
 .showtotop {

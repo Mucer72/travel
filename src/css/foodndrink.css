@@ -693,6 +693,13 @@ header .seacrh-bar-container label:hover {
   animation: showtop 1s ease-in-out 1 forwards;
 }
 
+@media (max-height: 550px)
+{
+  .home_video .content .p
+  {
+    font-size: 1.5rem;
+  }
+}
 @keyframes showtop {
   from {
     opacity: 0;
